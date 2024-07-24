@@ -6,4 +6,4 @@ clicked = st.button('주사위던지기', type='primary')
 
 if clicked:
     n = rd.randint(1, 6)
-    st.image(f'./img/{n}.png')
+    st.image(f'./img/img/{n}.png')
